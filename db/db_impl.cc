@@ -1315,6 +1315,9 @@ Status DB::Open(const Options& options, const std::string& dbname,
   *dbptr = NULL;
 
   DBImpl* impl = new DBImpl(options, dbname);
+
+  //有可能有多个线程同时访问，于是就用对象的锁来同步
+
   impl->mutex_.Lock();
   VersionEdit edit;
   Status s = impl->Recover(&edit); // Handles create_if_missing, error_if_exists

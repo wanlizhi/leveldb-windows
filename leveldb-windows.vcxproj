@@ -74,7 +74,6 @@
     <ClCompile Include="db\builder.cc" />
     <ClCompile Include="db\c.cc" />
     <ClCompile Include="db\dbformat.cc" />
-    <ClCompile Include="db\db_bench.cc" />
     <ClCompile Include="db\db_impl.cc" />
     <ClCompile Include="db\db_iter.cc" />
     <ClCompile Include="db\filename.cc" />
@@ -96,6 +95,7 @@
     <ClCompile Include="table\table.cc" />
     <ClCompile Include="table\table_builder.cc" />
     <ClCompile Include="table\two_level_iterator.cc" />
+    <ClCompile Include="test_client_main.cpp" />
     <ClCompile Include="util\arena.cc" />
     <ClCompile Include="util\cache.cc" />
     <ClCompile Include="util\coding.cc" />
