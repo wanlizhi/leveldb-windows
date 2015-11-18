@@ -81,6 +81,7 @@
     <ClCompile Include="db\log_writer.cc" />
     <ClCompile Include="db\memtable.cc" />
     <ClCompile Include="db\repair.cc" />
+    <ClCompile Include="db\skiplist_test.cc" />
     <ClCompile Include="db\table_cache.cc" />
     <ClCompile Include="db\version_edit.cc" />
     <ClCompile Include="db\version_set.cc" />
@@ -95,7 +96,6 @@
     <ClCompile Include="table\table.cc" />
     <ClCompile Include="table\table_builder.cc" />
     <ClCompile Include="table\two_level_iterator.cc" />
-    <ClCompile Include="test_client_main.cpp" />
     <ClCompile Include="util\arena.cc" />
     <ClCompile Include="util\cache.cc" />
     <ClCompile Include="util\coding.cc" />

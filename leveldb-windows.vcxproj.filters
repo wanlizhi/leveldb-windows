@@ -132,7 +132,7 @@
     <ClCompile Include="util\win_logger.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test_client_main.cpp">
+    <ClCompile Include="db\skiplist_test.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
